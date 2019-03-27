@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald|Roboto:400,700");
+
+body {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: .5em;
+
+}
+
+ul > li, p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+ul > li {
+    font-size: 1rem;
+
+}
+
+.timeline-container {
+    max-width: 1024px;
+    width: 60%;
+    padding-left: 4px;
+    /* margin: 0 auto; */
+}
+
+.timeline-container .outline-3 {
+    padding: 3em 2em 2em;
+    position: relative;
+    color: rgba(0, 0, 0, 0.7);
+    border-left: 2px solid rgba(0, 0, 0, 0.3);
+}
+.timeline-container .outline-3 p {
+    font-size: 1rem;
+}
+
+/* #org7bd6ea1 > span > span */
+/* #org0d003e5 > span:nth-child(1) > span:nth-child(1) */
+/* html body div#content div#outline-container-orgb327e62.outline-2.timeline-container div#outline-container-org25a5b0a.outline-3.timeline-item div#outline-container-org0d003e5.outline-4 h4#org0d003e5 span.timestamp-wrapper span.timestamp */
+
+.timeline-container .outline-3 h3 {
+    /* content: attr(date-is); */
+    position: absolute;
+    left: 2em;
+    font-weight: bold;
+    top: 0.2em;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: .785rem;
+}
+
+.timeline-container .outline-3::before {
+    width: 10px;
+    height: 10px;
+    display: block;
+    top: 1em;
+    position: absolute;
+    left: -8px;
+    border-radius: 10px;
+    content: ' ';
+    border: 2px solid rgba(0.4, 0.4, 0.4, 1);
+    background: white; /*rgba(0.8, 0.8, 0.8, 1);*/
+}
+
+.timeline-container .outline-3:last-child {
+    -o-border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 60%, transparent) 1 100%;
+    border-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3) 60%, transparent) 1 100%;
+    border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 60%, transparent) 1 100%;
+}
+
+/* Postable - where the author, date, etc is */
+#postamble {
+    visibility: hidden;
+}

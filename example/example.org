@@ -1,0 +1,27 @@
+#+OPTIONS: p:nil prop:nil f:nil d:t num:nil toc:nil html-style:nil
+
+# Timeline styling css inclusion
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://elisescu.github.io/org-timeline/css/timeline.css" />
+
+# Insert a CSS class on a headline, with <C-X-p> HTML_CONTAINER_CLASS
+# Export with <C-c C-e h h>, or <M-x> org-html-export-to-html
+
+* Header of the timeline
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: timeline-head
+  :END:
+The rest of the page will render a timeline of events. You won't believe what happened next.
+
+* Timeline
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: timeline-container
+  :END:
+** 2019-01-09 Thu
+*** Sefinissimo
+Nibh donec vitae laoreet odio phasellus duis integer semper, ultricies hendrerit quisque aliquam et posuere sociis augue, aenean rutrum at lacinia tempor interdum vivamus. Congue quam aliquam eleifend massa tellus velit donec ut, penatibus fermentum faucibus augue lacinia porta inceptos nec, sagittis himenaeos ultrices magnis pellentesque dignissim scelerisque. Iaculis varius ut euismod inceptos netus nec pulvinar sodales magnis nullam pharetra conubia quis volutpat hac, senectus a torquent etiam per augue malesuada quisque enim nostra est leo imperdiet lectus.
+** 2019-03-11 Thu
+*** Thursday, some other day
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+** 2019-04-13 Wed
+*** And that was it
+Pretium lobortis nullam iaculis sociis feugiat volutpat netus, lectus tempor dictum risus justo torquent pellentesque cubilia, fermentum mauris est facilisis scelerisque eget. Aenean proin ac cras eget pretium dignissim turpis malesuada bibendum id eros libero quis felis, accumsan primis himenaeos lacus cursus morbi nulla placerat volutpat blandit imperdiet dapibus ligula. Aptent fringilla euismod enim ante lacinia, malesuada orci sollicitudin cursus erat, quam primis commodo ligula. Mollis primis congue ac augue feugiat maecenas fermentum, tincidunt in cursus ligula ultricies condimentum, tempor morbi suscipit netus parturient torquent.
