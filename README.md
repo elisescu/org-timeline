@@ -7,7 +7,7 @@ Simple css theme for exporting an org-mode file as a timeline, like [this](http:
 ## How to use
 Include this at the top of your org-mode file:
 ```
-#+SETUPFILE: http://elisescu.com/org-timeline/setup/html.setup
+#+SETUPFILE: https://elisescu.github.io/org-timeline/setup/html.setup
 ```
 The `html.setup` file is the same as `setup/html.setup`. So if I forgot, and removed it from the link above, you can use it directly from this repo.
 
