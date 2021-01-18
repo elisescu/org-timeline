@@ -29,7 +29,7 @@ Then in your org file, you will need a particular structure, like:
 But better take a look at the example, and at the code.
 
 ## Example
-See the [example/example.org](example/example.org) which should render like [this](http://elisescu.com/org-timeline/example/example.html).
+See the [example/example.org](example/example.org) which should render like [this](https://elisescu.github.io/org-timeline/example/example.html).
 
 ## Credits
 - [org-macros](https://github.com/fniessen/org-macros)
